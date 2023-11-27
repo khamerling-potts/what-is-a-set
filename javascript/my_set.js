@@ -49,7 +49,7 @@ class MySet {
   // return true if in MySet, otherwise false
   // don't worry about arrays here!
   has(item) {
-    if (item in this.data) return true;
+    if (this.data[item]) return true;
     return false;
   }
 
